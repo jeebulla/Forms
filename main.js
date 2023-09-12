@@ -5,13 +5,15 @@ function signUp(e) {
   let firstName = document.getElementById("fname").value;
   let lastName = document.getElementById("lname").value;
   let email = document.getElementById("email").value;
-  //   let username = document.getElementById("username").value;
+  let password = document.getElementById("password").value;
+  let confirmPassword = document.getElementById("confirm").value;
 
   let newUser = {
     firstName: firstName,
     lastName: lastName,
     email: email,
-    // username: username,
+    password: password,
+    confirmPassword: confirmPassword,
   };
 
   database.push(newUser);

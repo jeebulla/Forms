@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background-color: #444;
+  background: #36ac4ad0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.2rem;
   color: #f4f4f4;
@@ -14,15 +14,23 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+h3 {
+  font-family: cursive;
+  text-align: center;
+  font-size: 2.5rem;
+}
+span {
+  color: #ff6347;
+  text-align: center;
+}
 .main {
-  width: 40%;
-  border: 1px solid;
+  width: 100%;
   border-radius: 15px;
-  background: #36ac4ad0;
 }
 .signup {
-  padding: 1.5rem 1rem;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 0.5rem;
 }
 .signup label {
   display: block;
@@ -43,7 +51,7 @@ body {
   font-size: 1.2rem;
 }
 .signup input:hover {
-  border-bottom: 3px solid #444;
+  border-bottom: 3px solid #ff6347;
   border-radius: 0.2rem;
 }
 .signup .submit:hover {
