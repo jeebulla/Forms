@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <form
+        action="./signIn.html"
+        id="form"
+        class="signup"
+        onsubmit="signUp(event)"
+      >
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" placeholder="Johnny" />
+        <label for="fname">Last Name</label>
+        <input type="text" name="lname" id="lname" placeholder="Depp" />
+        <label for="fname">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="name@example.com"
+        />
+        <label for="fname">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="************"
+        />
+        <label for="fname">Confirm password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="************"
+        />
+        <hr />
+        <input
+          type="submit"
+          value="Sign Up"
+          id="submit"
+          class="submit"
+          onclick="signUp()"
+        />
+      </form>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

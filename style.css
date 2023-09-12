@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #444;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 40%;
+  border: 1px solid;
+  border-radius: 15px;
+  background: #36ac4ad0;
+}
+.signup {
+  padding: 1.5rem 1rem;
+}
+.signup label {
+  display: block;
+  margin: 0.45rem 0;
+}
+.signup input {
+  width: 100%;
+  padding: 0.75rem 0.5rem;
+  border: 3px solid transparent;
+  outline: solid 0.5px #36ac4ad0;
+  border-radius: 0.2rem;
+  margin-bottom: 0.85rem;
+}
+.signup .submit {
+  margin: 0.5rem auto;
+  background: #9f311e;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.signup input:hover {
+  border-bottom: 3px solid #444;
+  border-radius: 0.2rem;
+}
+.signup .submit:hover {
+  border-bottom: 3px solid transparent;
+  background: #ff6347;
+}
+.signup hr {
+  border: none;
+  border-bottom: 4px dotted #f4f4f4;
+  width: 7%;
+  margin: 0 auto;
+}
